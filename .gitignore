@@ -1,0 +1,161 @@
+# Compiled executables
+NanoChessTurbo
+NanoChessTurbo.exe
+nanochessturbo
+nanochessturbo.exe
+*.out
+*.app
+
+# Debug/Profile builds
+NanoChessTurbo_debug
+NanoChessTurbo_profile
+*_debug
+*_debug.exe
+*_profile
+*_profile.exe
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+*.map
+*.exp
+
+# Profiling
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+callgrind.out.*
+*.prof
+
+# Build directories
+build/
+Build/
+debug/
+Debug/
+release/
+Release/
+bin/
+obj/
+out/
+cmake-build-*/
+
+# IDE specific files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Makefile.cmake
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+*.log
+
+# Core dumps
+core
+core.*
+vgcore.*
+*.stackdump
+
+# Chess specific files
+*.pgn
+*.epd
+*.fen
+*.eco
+*.book
+games/
+positions/
+tournaments/
+books/
+
+# Documentation build
+docs/html/
+docs/latex/
+doxygen/
+*.doxygen
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+*.deb
+*.rpm
+*.dmg
+*.pkg
+*.msi
+
+# Test files
+test_results/
+*.test
+*.spec
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Editor autosave
+\#*#
+.#*
+
+# Windows specific
+*.exe.config
+*.exe.manifest
