@@ -1,9 +1,9 @@
 # NanoChessTurbo One-file-Chess-Engine
 A complete UCI chess program written in a single C++ code and with only 1000 lines. The program includes all the rules of chess, evaluation functions, and all the optimizations to speed up the search for moves.
 
-##**Features**  
+## **Features**  
 
-##**Search Algorithms**
+## **Search Algorithms**
 
 -Alpha-Beta Pruning with fail-hard framework  
 
@@ -21,7 +21,7 @@ A complete UCI chess program written in a single C++ code and with only 1000 lin
 
 -Check Extensions to avoid missing tactics
 
-##**Evaluation**  
+## **Evaluation**  
 
 
 -Material evaluation with piece values  
@@ -35,7 +35,7 @@ A complete UCI chess program written in a single C++ code and with only 1000 lin
 -Piece mobility and development  
 
 
-##**Optimizations**  
+## **Optimizations**  
 
 
 -Zobrist Hashing for position identification  
@@ -49,7 +49,7 @@ A complete UCI chess program written in a single C++ code and with only 1000 lin
 -MVV-LVA (Most Valuable Victim - Least Valuable Attacker) for capture ordering  
 
 
-##**Performance**  
+## **Performance**  
 
 
 -Depth 15-20 within seconds  
@@ -62,7 +62,7 @@ A complete UCI chess program written in a single C++ code and with only 1000 lin
 
 
 
-##**Requirements** 
+## **Requirements** 
 
 
 -C++ compiler with C++11 support (GCC, Clang, MSVC)  
@@ -71,7 +71,7 @@ A complete UCI chess program written in a single C++ code and with only 1000 lin
 
 -Any UCI-compatible chess GUI (Arena, Lucas Chess, Cute Chess, etc.)  
 
-##**UCI Commands**  
+## **UCI Commands**  
 
 The engine supports the standard UCI protocol:  
 
@@ -89,7 +89,7 @@ go [depth n] [movetime n] [wtime n] [btime n] [infinite] - Start calculating
 quit - Exit the engine  
 
 
-##**UCI Options**  
+## **UCI Options**  
 
 Configure the engine through UCI options:  
 
